@@ -1,5 +1,7 @@
-streamlit==1.22.0
-tensorflow==2.10.0
+streamlit==1.25.0
 deepface==0.0.79
+opencv-python-headless==4.8.0.76
+tensorflow==2.10.0
 protobuf==3.19.6
-opencv-python-headless==4.8.0.74
+pandas
+numpy
