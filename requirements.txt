@@ -1,0 +1,6 @@
+streamlit
+deepface
+pandas
+plotly
+matplotlib
+Pillow
