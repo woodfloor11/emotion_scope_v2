@@ -1,5 +1,5 @@
 streamlit==1.25.0
-protobuf==3.19.6
+protobuf==3.20.3
 tensorflow==2.9.1
 keras==2.9.0
 deepface==0.0.79
