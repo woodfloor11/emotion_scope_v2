@@ -1,9 +1,8 @@
-streamlit==1.25.0
+streamlit==1.21.0
 deepface==0.0.79
 tensorflow==2.10.0
 protobuf==3.19.6
 pandas
-numpy
-opencv-python
 matplotlib
+opencv-python
 Pillow
