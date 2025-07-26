@@ -1,11 +1,18 @@
-streamlit==1.21.0
-tensorflow==2.10.0
-protobuf==3.19.6
+streamlit==1.25.0
 deepface==0.0.79
+
 opencv-python-headless==4.7.0.72
-pandas==1.5.3
+# Prevent opencv-python install
+opencv-python==9999.9999.9999
+
+protobuf>=3.20,<5
 numpy==1.23.5
-matplotlib==3.7.1
-Pillow==9.5.0
-gdown==4.7.1
-mtcnn==1.0.0
+pandas==1.5.3
+tensorflow==2.10.0
+keras==2.10.0
+
+matplotlib
+scikit-learn
+tqdm
+Pillow
+requests
