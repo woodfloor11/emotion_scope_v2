@@ -1,8 +1,9 @@
-streamlit==1.32.2
+streamlit==1.25.0
+deepface==0.0.79
+tensorflow==2.10.0
+protobuf==3.19.6
 pandas
+numpy
+opencv-python
 matplotlib
-plotly
-# DeepFace stack — only install when Python < 3.13
-deepface==0.0.79 ; python_version < "3.13"
-tensorflow==2.10.0 ; python_version < "3.13"
-opencv-python-headless==4.8.1.78 ; python_version < "3.13"
+Pillow
