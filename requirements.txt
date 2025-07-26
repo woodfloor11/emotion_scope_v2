@@ -1,6 +1,7 @@
-streamlit
-deepface
-pandas
-plotly
-matplotlib
-Pillow
+streamlit==1.32.2
+deepface==0.0.79
+tensorflow==2.12.0
+pandas==2.2.1
+plotly==5.21.0
+matplotlib==3.8.4
+Pillow==10.3.0
