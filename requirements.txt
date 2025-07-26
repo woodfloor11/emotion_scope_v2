@@ -3,7 +3,6 @@ tensorflow==2.10.0
 protobuf==3.19.6
 deepface==0.0.79
 opencv-python-headless==4.7.0.72
-opencv-python==9999.9999.9999  # Block install
 pandas==1.5.3
 numpy==1.23.5
 matplotlib==3.7.1
