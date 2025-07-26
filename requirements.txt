@@ -1,9 +1,9 @@
 streamlit==1.25.0
-tensorflow==2.9.1
-protobuf==3.19.6
-deepface==0.0.79
-opencv-python-headless==4.5.5.64
-Pillow==9.5.0
-matplotlib==3.7.1
-pandas==1.5.3
-numpy==1.23.5
+tensorflow==2.10.0
+deepface==0.0.83
+opencv-python-headless
+retina-face
+matplotlib
+pandas
+numpy
+Pillow
