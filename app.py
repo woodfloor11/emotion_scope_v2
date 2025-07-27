@@ -1,5 +1,5 @@
 import streamlit as st
-from deepface import DeepFace
+from deepface.DeepFace import analyze  # ← FIXED import
 import pandas as pd
 import numpy as np
 from PIL import Image
@@ -43,7 +43,7 @@ if uploaded_image:
 
     # Analyze emotion
     with st.spinner("Analyzing emotion..."):
-        result = DeepFace.analyze(img_path=np.array(image), actions=['emotion'], enforce_detection=False)[0]
+        result = analyze(img_path=np.array(image), actions=['emotion'], enforce_detection=False)[0]  # ← FIXED usage
 
     dominant_emotion = result['dominant_emotion']
     emotion_scores = result['emotion']
